@@ -5,9 +5,7 @@ function Cow(img) {
   this.velocity = 0;
 
   this.show = function() {
-    //fill(255);
-    //ellipse(this.x, this.y, 32, 32);
-    image(img, this.x - 16, this.y - 16);
+    image(img, this.x - 32, this.y - 32);
   }
 
   // move the cow left or right

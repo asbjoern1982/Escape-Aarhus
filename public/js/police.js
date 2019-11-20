@@ -1,4 +1,4 @@
-function Butcher(img) {
+function Police(img) {
   this.h = 32;
   this.w = 32;
   this.y = -this.h;
@@ -14,8 +14,6 @@ function Butcher(img) {
   }
 
   this.show = function() {
-    //fill(255, 0, 0);
-    //rect(this.x, this.y, this.h, this.w);
     image(img, this.x, this.y);
   }
 
